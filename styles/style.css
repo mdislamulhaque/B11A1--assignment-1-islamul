@@ -108,3 +108,83 @@ nav {
 }
 
 /* pillar section styles end here  */
+
+/* vission section styles start here  */
+.vission-description {
+  color: rgba(14, 14 14, 0.7);
+  font-weight: 400;
+  font-size: 16px;
+  margin: 15px 0;
+}
+
+.vission-card-container {
+  display: flex;
+  gap: 30px;
+  margin: 32px 0;
+}
+
+.vission-card-item1 {
+  background-color: rgba(84, 144, 245, 0.2);
+  padding: 24px;
+  border-radius: 16px;
+}
+
+.card-btn1 {
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #5490f5;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+}
+
+.vission-card-item2 {
+  background-color: #c6e4d6;
+  padding: 24px;
+  border-radius: 16px;
+}
+
+.card-btn2 {
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #09a15c;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+}
+
+.vission-card-item3 {
+  background-color: #f7ebcf;
+  padding: 24px;
+  border-radius: 16px;
+}
+
+.card-btn3 {
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #ffc239;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+}
+
+.vission-quate {
+  background-color: #fff;
+  padding: 48px 24px;
+  border-radius: 16px;
+  position: relative;
+  margin-bottom: 24px;
+}
+.quate-img {
+  background-image: url("/assets/quote-bg.png");
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 13%;
+}
+
+/* vission section styles end here  */
