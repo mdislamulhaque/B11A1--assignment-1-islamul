@@ -295,7 +295,7 @@ select {
   justify-content: center;
 }
 .input-field > input {
-  padding: 18px 300px;
+  padding: 18px 400px;
   border: none;
   border-bottom: 1px solid rgba(14, 14, 14, 0.15);
 }
@@ -315,6 +315,17 @@ select {
   padding: 30px 30px;
   border-radius: 16px;
   background-color: #fff;
+}
+
+.donate-card:hover {
+  background-color: #c6e4d6;
+}
+.active {
+  background-color: #c6e4d6;
+}
+
+.hover-btn:hover {
+  background-color: #0f4029;
 }
 /* donate section styles end here  */
 /* subscription section styles start here  */
