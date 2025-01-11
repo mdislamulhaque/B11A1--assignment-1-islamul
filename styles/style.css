@@ -281,3 +281,108 @@ select {
   border-radius: 24px;
 }
 /* news section styles end here  */
+
+/* donate section styles start here  */
+.donate {
+  text-align: center;
+  margin: 80px 0;
+  padding: 0 100px;
+}
+
+.input-field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input-field > input {
+  padding: 18px 300px;
+  border: none;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.input-field > input::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.3);
+}
+
+.donate-card-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+.donate-card {
+  padding: 30px 30px;
+  border-radius: 16px;
+  background-color: #fff;
+}
+/* donate section styles end here  */
+/* subscription section styles start here  */
+.subscribe {
+  text-align: center;
+  margin: 80px 0;
+  padding: 50px 100px;
+  background-color: #c6e4d6;
+  border-radius: 24px;
+}
+.sub-btn {
+  padding: 16px 26px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+  background-color: #006a50;
+  border: none;
+  border-radius: 0 8px 8px 0;
+  margin-top: 50px;
+}
+
+.input-sub {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  margin: 0 auto;
+}
+.input-sub input::placeholder {
+  padding-left: 10px;
+  color: rgba(14, 14, 14, 0.3);
+}
+.input-sub input {
+  padding: 14px;
+  border-radius: 4px 0 0 4px;
+  border: none;
+  width: 80%;
+}
+.input-sub button {
+  padding: 13px 20px;
+  outline: none;
+  border: none;
+  border-left: none;
+  border-radius: 0 4px 4px 0;
+  background-color: #006a50;
+  color: #fff;
+}
+
+/* subscription section styles end here  */
+
+/* footer section styles start here  */
+
+footer {
+  margin: 50px 0;
+}
+.title-footer {
+  font-size: 32px;
+  font-weight: bold;
+  color: #0e0e0e;
+  text-align: center;
+  margin: 20px 100px;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.icon-box {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+/* footer section styles end here  */
